@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "title": "Guinness",
+      "Likes": "0",
+      "slogan": "Good things come to those who wait!",
+      "img": "https://api.freelogodesign.org/assets/blog/thumb/20200309091037750guinness-glass-with-logo_1176x840.jpg?t=638355680730000000",
+      "id": "1"
+    },
+    {
+      "title": "Pilsner",
+      "Likes": "0",
+      "slogan": " Always Matter what you Drink!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLULW7vs8vKsvh7-1eSccUwH-AZ_AJ15ZxykbfUA5RtA&s",
+      "id": "2"
+    },
+    {
+      "title": "Corona",
+      "slogan": " Miles Away From Ordinary!",
+      "img": "https://greenspoon.co.ke/wp-content/uploads/2023/05/Greenspoon-Kenya-Corona-Beer-330ml.jpg",
+      "Likes": "0",
+      "id": "3"
+    },
+    {
+      "title": "Kentuky",
+      "slogan": " Beer at its absolute best!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpSvOjX6FhSmGnxOpHN_lItsYykg6QNINmNxedXoFnQ&s",
+      "Likes": "0",
+      "id": "4"
+    },
+    {
+      "title": "Heineken",
+      "slogan": " Open Your World!",
+      "img": "https://i0.wp.com/chupachap.co.ke/wp-content/uploads/2021/04/Heineken_Alcohol_Free_Bottle.jpg?fit=740%2C740&ssl=1",
+      "Likes": "0",
+      "id": "5"
+    },
+    {
+      "title": "HighLife",
+      "slogan": " The Champagne of Bottled Beer!",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_d968a3d4-c5ce-4de4-a8d1-2b5eebc50c2a?wid=488&hei=488&fmt=pjpeg",
+      "Likes": "0",
+      "id": "6"
+    },
+    {
+      "title": "Coors Light",
+      "slogan": " Made to Chill!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0uAZ4F7WELAXTTjtL04AJVUHus8OfF5SIqA-dbBjSQ&s",
+      "Likes": "0",
+      "id": "7"
+    },
+    {
+      "title": "Mitchelob Utra",
+      "slogan": " It's Only Worth It If You Enjoy It!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8aHYWnLCrtW_UvL2DxZZlg_-2NDVGg_FUXSmRHzy59w&s",
+      "Likes": "0",
+      "id": "8"
+    },
+    {
+      "title": "Tusker",
+      "slogan": " Bia yangu, Nchi yangu!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlj82kpRLmH8Zn0nFgGZ5o4xpiFvjOtDaGSxWpBD_Q6g&s",
+      "Likes": "0",
+      "id": "9"
+    },
+    {
+      "title": "Kings",
+      "slogan": " King of Bottled Beer!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbsmXYfK_JO-HKZoDZRaz6d8blvexSWKxvVr_Upw_Hg&s",
+      "Likes": "0",
+      "id": "10"
+    },
+    {
+      "title": "Chimay Blue",
+      "slogan": "work and prayer!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGHn1S4wrmHJngEufrRmcfI17SD7aSfsaOl4OajvAIQ&s",
+      "Likes": "0",
+      "id": "11"
+    },
+    {
+      "title": "Duvei",
+      "slogan": "Where Dreams Come True!",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WTiOf3GWZlPI-10XrtVFKFLVWISUJaWFrxlBTS7ceNXVv7oZP_gTqmQQpRMh8xHUqT4&usqp=CAU",
+      "Likes": "0",
+      "id": "12"
+    }
+  ]
+}

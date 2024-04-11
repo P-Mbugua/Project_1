@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Tail wind css link start -->
+            <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Tail wind css link end -->
+
+
+        <!-- boxicons css link start -->
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- boxicons css link end -->
+
+        <!-- custom flowbite link start -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+        <!-- custom flowbite link end -->
+
+        
+        <!-- custom css link start-->
+        <link rel="stylesheet" href="/style.css">
+        <!-- custom css link end-->    
+    <title>Inventory Application</title>
+</head>
+<body>
+    
+<!-- Navigation bar Start -->
+        
+
+<nav class=" bg-white dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUvUuL37mpQm4150SyLEV3y3VGAJH6XXX7w&s" class="h-8" alt="Beer Bliss Logo">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Beer Bliss</span>
+  </a>
+  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" class="text-blue bg-blue-100 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Rate Us</button>
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-15 h-15 justify-center text-sm text-white-700 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-white-700 dark:text-yellow-700 dark:hover:bg-gray-100 dark:focus:ring-white-700" aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-8 h-8 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="#Landing" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+      </li>
+      <li>
+        <a href="#store" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Store</a>
+      </li>
+      <li>
+        <a href="#add-post" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Add Post</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+  <!-- Navigation bar Start -->
+
+
+  <!-- landing page start-->
+                   <div class=" h-auto bg-gray-200 mb-10  " id="Landing">
+                        <!-- company image -->
+                        <div class="grid md:grid-cols-2   ">
+                          <div><h1 class="text-blue-700 pt-20 mb-10 text-7xl text-red text-center font-semibold">Keep Calm And Drink</h1>
+                          <h3 class="text-3xl font-medium">The Number one Leading liquor Company</h3>
+                          
+                          </div>
+
+                          <div><img class="h-[100%] w-[100%] pt-20  " src="https://i0.wp.com/sporked.com/wp-content/uploads/2023/08/LISTICLE_BEST-BEER-IF-YOU-DONT-LIKE-BEER_HEADER.jpg" alt="" srcset=""></div>
+                        </div>
+
+                        <h3 class="text-3xl pt-10 font-bold text-center text-red-700 pb-20   ">Not For Sale To Persons Under The Age Of 19Years</h3>
+                  </div>
+  <!-- landing page end-->
+
+
+
+
+
+
+  <!-- store page start -->
+  <div class=" h-auto bg-gray-300 min-h-screen" id="store"> 
+      <!-- title -->
+            <h2 class="text-2xl font-bold mt-5 text-center mb-5">STORE</h2>
+
+      <!-- cards for pictures.. -->
+          <div class="px-auto grid md:grid-cols-6 gap-2 mt-5"  id="cardsContainer">
+            <!-- picture one -->
+              <!-- <div class="w-600">
+                <a href="#" class="block mx-auto max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                  <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                  </a>
+              </div> -->
+
+            <!-- picture two -->
+              <!-- <a href="#" class="block mx-auto max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                </a>
+              <a href="#" class="block mx-auto max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                </a> -->
+              <!-- image 3 -->
+               
+          </div>
+  
+  </div>
+  <!-- store page end -->
+
+
+  
+  <!-- form page start -->
+  <div class="container mx-auto grid md:grid-cols-2 bg-gray-900 w-full h-auto pb-20 pt-20 mt-10 mb-10" id="add-post">
+    <div>
+
+      
+      <form id="form" class="max-w-md mx-auto">
+        <h2 class="text-white text-3xl text-center font-semibold">Add Post</h2>
+        <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="title" id="title" class="block py-2.5 px-0 w-full text-sm text-black-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-black-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Title</label>
+        </div>
+        <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="slogan" id="slogan" class="block py-2.5 px-0 w-full text-sm text-black-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-black-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Slogan</label>
+        </div>
+        <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="pictureurl" id="products" class="block py-2.5 px-0 w-full text-sm text-black-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-black-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Image</label>
+        </div>
+       
+        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+      </form> 
+</div>
+
+
+<!-- udpate -->
+        <div id="update-products"></div>
+  </div>
+<!-- form page end -->
+
+
+
+  <!-- footer start -->
+          
+
+<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUvUuL37mpQm4150SyLEV3y3VGAJH6XXX7w&s" class="h-8" alt=" Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Beer Bliss</span>
+          </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">About</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Beer Bliss™</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+  <!-- footer end -->
+
+
+
+
+  <!-- flow bite js link start -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <!-- flow bite js link end -->
+
+  <!-- javascript link start -->
+            <script src="/script.js"></script>
+  <!-- javascript link end -->
+    
+</body>
+</html>
