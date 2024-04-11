@@ -1,4 +1,4 @@
-fetch("http://localhost:5000/posts")
+fetch("https://project-1-qar1.onrender.com/posts")
     .then((data) =>data.json())
     .then((posts) =>{
         let cardsContainer = document.getElementById("cardsContainer");
@@ -28,7 +28,7 @@ fetch("http://localhost:5000/posts")
 
 
       function editPost (id) {
-        fetch("http://localhost:5000/posts")
+        fetch("https://project-1-qar1.onrender.com/posts")
         .then((data) =>data.json())
         .then((post) =>{
        
@@ -61,7 +61,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
     const products = document.getElementById("products").value
     const slogan = document.getElementById("slogan").value
 
-          fetch(`http://localhost:5000/posts${id}`, {
+          fetch(`https://project-1-qar1.onrender.com/posts${id}`, {
             method: "PATCH",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({title: title, slogan: slogan, img: products, likes: 0 })
@@ -85,7 +85,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
 
 
       function deletePost(id) {
-        fetch(`http://localhost:5000/posts/${id}`, {
+        fetch(`https://project-1-qar1.onrender.com/posts/${id}`, {
           method: "DELETE"
         })
               .then((data) =>data.json())
@@ -103,7 +103,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
                   const products = document.getElementById("products").value
                   const slogan = document.getElementById("slogan").value
 
-                        fetch("http://localhost:5000/posts", {
+                        fetch("https://project-1-qar1.onrender.com/posts", {
                           method: "POST",
                           headers: {"Content-Type": "application/json"},
                           body: JSON.stringify({title: title, slogan: slogan, img: products })
@@ -153,7 +153,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
     //     likesCount.textContent = post.Likes;
 
     //     // Update likes count on the server
-    //     fetch(`http://localhost:5000/posts/${post.id}`, {
+    //     fetch(`https://project-1-qar1.onrender.com/posts/${post.id}`, {
     //         method: "PUT",
     //         headers: {
     //             "Content-Type": "application/json"
