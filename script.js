@@ -85,7 +85,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
 
 
       function deletePost(id) {
-        fetch(`https://project-1-qar1.onrender.com/posts/${id}`, {
+        fetch(`https://project-1-qar1.onrender.com/posts${id}`, {
           method: "DELETE"
         })
               .then((data) =>data.json())
@@ -153,7 +153,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
     //     likesCount.textContent = post.Likes;
 
     //     // Update likes count on the server
-    //     fetch(`https://project-1-qar1.onrender.com/posts/${post.id}`, {
+    //     fetch(`https://project-1-qar1.onrender.com/posts${post.id}`, {
     //         method: "PUT",
     //         headers: {
     //             "Content-Type": "application/json"
